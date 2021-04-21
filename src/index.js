@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'typeface-roboto';
+import {IKContext} from 'imagekitio-react';
+
+const urlEndpoint = 'https://ik.imagekit.io/g56fnhdh8px/';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <IKContext urlEndpoint={urlEndpoint}>
+    <React.Fragment>
+      <App />
+    </React.Fragment>
+  </IKContext>,
   document.getElementById('root')
 );
 

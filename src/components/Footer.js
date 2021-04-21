@@ -1,6 +1,5 @@
-import { BottomNavigation, Box, Typography } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 import React from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
 
 const Footer = (props) => {
 

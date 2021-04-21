@@ -39,4 +39,41 @@ code {
   marginTop: 20px;
 }
 
+.dropzone {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #3f51b5;
+  cursor: pointer;
+}
+
+.dropzone-focused {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: white;
+  color: white;
+  background-color: #3f51b5;
+  cursor: pointer;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.post-subheader{
+  cursor: pointer;
+}
+
+.post-subheader:hover {
+  text-decoration: underline;
+}
+
+.no-bottom-padding{
+  padding-bottom: 0 !important;
+}
+
+.user-link{
+  color: inherit;
+  font-weight: bold;
+}
 
